@@ -1,0 +1,90 @@
+/* Navbar.module.css */
+
+/* Navbar container styling */
+.navbarContainer {
+    padding-top: 2.25rem; /* Equivalent to pt-8 */
+    width: 100%;
+}
+  @media (min-width: 640px) {
+      .container {
+          max-width: 640px;
+      }
+  }
+  @media (min-width: 768px) {
+      .container {
+          max-width: 768px;
+      }
+  }
+  @media (min-width: 1024px) {
+      .container {
+          max-width: 1024px;
+      }
+  }
+  @media (min-width: 1280px) {
+      .container {
+          max-width: 1280px;
+      }
+  }
+  @media (min-width: 1536px) {
+      .container {
+          max-width: 1536px;
+      }
+    }
+
+  
+  /* Navbar flex container */
+  .navbarFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbarText {
+    font-size: 2.25rem /* 20px */;
+    font-family: serif;
+    line-height: 1.75rem /* 28px */;
+    font-weight: 500;
+  }
+  
+  /* Navbar links container */
+  .navbarLinks {
+    display: none; /* Default hidden on small screens */
+    gap: 2.5rem; /* Equivalent to gap-10 */
+    font-weight: 700;
+    margin-right: 2rem;
+  }
+  @media (min-width: 1024px) {
+    .navbarLinks {
+        gap: 4rem /* 64px */;
+    }
+}
+  
+  /* Navbar links on medium to large screens */
+  @media (min-width: 768px) {
+    .navbarLinks {
+      display: flex;
+    }
+  }
+  
+  /* Individual link styling */
+  .navbarLink {
+    list-style: none;
+  }
+  
+  .navbarLink a {
+    text-decoration: none;
+    color: inherit; /* Ensure it inherits color from parent */
+  }
+  
+  /* Hamburger menu icon for small screens */
+  .hamburgerIcon {
+    display: block; /* Show on small screens */
+  }
+  
+  /* Hide hamburger menu on larger screens */
+  @media (min-width: 768px) {
+    .hamburgerIcon {
+      display: none;
+    }
+  }
+  
