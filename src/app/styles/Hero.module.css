@@ -1,0 +1,68 @@
+/* Hero.module.css */
+
+/* Hero section container */
+.hero {
+    min-height: 100vh; /* Equivalent to min-h-screen */
+    background-image: url('/IMG-20201208-WA0017.jpg'); /* Background image */
+    background-repeat: no-repeat; /* Equivalent to bg-no-repeat */
+    background-size: 25%; /* Equivalent to bg-[url(...)] and backgroundSize */
+    background-position: left 150px top 180px; /* Custom background position */
+  }
+  
+  /* Container for the text and content */
+  .heroContent {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    height: calc(30vh - 30px); /* Equivalent to h-[calc(30vh-30px)] */
+  }
+
+  .heroHidden {
+    display: none;
+  }
+  @media (min-width: 1024px) {
+    .heroHidden {
+        display: block;
+    }
+}
+  
+  /* Heading text styling */
+  .heroText {
+    font-size: 50px; /* Equivalent to text-[50px] */
+    font-weight: bold; /* Equivalent to font-bold */
+    line-height: 1.25; /* Equivalent to leading-tight */
+    display: flex;
+    justify-content: space-around; /* Equivalent to justify-around */
+    align-items: center; /* Equivalent to items-center */
+  }
+  @media (min-width: 640px) {
+    .heroText {
+        font-size: 70px;
+    }
+}
+  
+  .heroText p {
+    animation: zoomIn 1s ease-in-out; /* Adding zoom-in effect */
+  }
+  
+  /* Media query for larger screens */
+  @media screen and (min-width: 1024px) {
+    .heroContent {
+      grid-template-columns: repeat(2, 1fr); /* Equivalent to lg:grid-cols-2 */
+    }
+    .heroText {
+      font-size: 70px; /* Equivalent to sm:text-[70px] */
+    }
+  }
+  
+  /* Keyframes for zoom-in animation */
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
