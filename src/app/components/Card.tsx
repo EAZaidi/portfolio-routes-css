@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import { DiVim } from 'react-icons/di';
 import styles from '../styles/Card.module.css'; // Adjust the path if needed
 
 interface propsType {
