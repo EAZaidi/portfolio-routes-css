@@ -37,7 +37,6 @@
     margin-left: 1rem; 
     padding-bottom: 4rem;
     align-items: center;
-    animation: zoomIn 1s ease;
   }
   
   .aboutParagraph {
@@ -47,20 +46,8 @@
     margin-left: -2rem;
     line-height: 2.25rem;
     padding-top: 4rem; 
-    animation: zoomIn 1s ease; 
   }
-  
-  @keyframes zoomIn {
-    0% {
-      transform: scale(0);
-      opacity: 0;
-    }
-    100% {
-      transform: scale(1);
-      opacity: 1;
-    }
-  }
-  
+    
   .flex-column {
     display: flex;
     flex-direction: column;
