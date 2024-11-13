@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { LuMenu } from "react-icons/lu";
-import styles from '../styles/Navbar.module.css'; // Adjust the path if needed
+import styles from '../styles/Navbar.module.css';
 
 const Navbar = () => {
   return (

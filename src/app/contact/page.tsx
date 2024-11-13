@@ -1,7 +1,7 @@
 import React from 'react';
 import { GoMail } from "react-icons/go";
 import { BsTelephoneInbound } from "react-icons/bs";
-import styles from '../styles/Contact.module.css'; // Adjust path if needed
+import styles from '../styles/Contact.module.css'; 
 
 function Contact() {
   return (
@@ -9,7 +9,7 @@ function Contact() {
       
       <div className={styles.gridLayout}>
       
-        {/* Left side: Contact information */}
+        
         <div className={styles.space}>
 
           <h2 className={styles.contactHeading}>Get In Touch</h2>
@@ -26,7 +26,7 @@ function Contact() {
           </div>
         </div>
 
-        {/* Right side: Contact form */}
+        
         <div className="space-y-8">
           <div className={styles.contactField} data-aos="zoom-in">
             <label htmlFor="name">Name</label>
@@ -59,6 +59,6 @@ function Contact() {
       </div>
     </div>
   );
-}
+};
 
 export default Contact;

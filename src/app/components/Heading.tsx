@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from '../styles/Heading.module.css'; // Adjust the path if needed
+import styles from '../styles/Heading.module.css';
 
 interface propsType {
   title: string;
-}
+};
 
 const Heading: React.FC<propsType> = ({ title }) => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/Footer.module.css'; // Adjust the path if needed
+import styles from '../styles/Footer.module.css';
 
 function Footer() {
   return (
@@ -9,6 +9,6 @@ function Footer() {
     </div>
     </div>
   );
-}
+};
 
 export default Footer;

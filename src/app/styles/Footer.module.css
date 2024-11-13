@@ -1,20 +1,21 @@
-/* Footer.module.css */
 
-/* Footer container styling */
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 10vh;
+  width: 200vh;
+  flex: 1;
+}
+
 .footer {
-    margin-top: 5rem; /* Equivalent to mt-16 */
-    padding-top: 1.5rem; /* Equivalent to py-6 */
-    padding-bottom: 1.5rem; /* Equivalent to py-6 */
+    margin-top: 5rem;
+    width: 100%;
+    padding-top: 1.5rem; 
+    padding-bottom: 2rem;
     text-align: center;
-    background-color: #15803d; /* Equivalent to bg-green-700 */
-    color: white; /* Ensuring text is white */
-    font-size: 1rem; /* Adjust if needed */
+    background-color: #15803d; 
+    color: white; 
+    font-size: 1rem;
   }
 
-  .footerContainer {
-    display: flex;
-    flex-direction: column;
-    min-height: 10vh;
-    flex: 1;
-    padding-top: 8rem;
-  }
+  

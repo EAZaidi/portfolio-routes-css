@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/Hero.module.css'; // Adjust the path if needed
+import styles from '../styles/Hero.module.css'; 
 
 const Hero = () => {
   return (
@@ -8,9 +8,9 @@ const Hero = () => {
       <div className={styles.heroHidden}></div>
       <div className={styles.heroText}>
         <div>
-          <p data-aos="zoom-in">Hello, I&apos;m</p>
-          <p data-aos="zoom-in">Essa</p>
-          <p data-aos="zoom-in">Abbas Zaidi</p>
+          <p>Hello, I&apos;m</p>
+          <p>Essa</p>
+          <p>Abbas Zaidi</p>
         </div>
       </div>
     </div>

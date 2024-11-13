@@ -1,17 +1,13 @@
-/* Heading.module.css */
-
-/* Centered heading container */
 .headingContainer {
     text-align: center;
-    font-size: 2.25rem; /* Equivalent to text-4xl */
+    font-size: 2.25rem; 
     line-height: 2.5rem;
-    padding-bottom: 2rem; /* Equivalent to pb-8 */
+    padding-bottom: 2rem; 
   }
   
-  /* Underlined title */
   .headingTitle {
     display: inline-block;
-    padding-bottom: 0.5rem; /* Equivalent to pb-2 */
-    border-bottom: 4px solid; /* Equivalent to border-b-4 */
+    padding-bottom: 0.5rem;
+    border-bottom: 4px solid;
   }
   

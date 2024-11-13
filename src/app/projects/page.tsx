@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/Projects.module.css'; // Adjust path if needed
+import styles from '../styles/Projects.module.css';
 import Card from '../components/Card';
 import Heading from '../components/Heading';
 
